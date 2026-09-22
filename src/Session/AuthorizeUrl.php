@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Session;
+namespace HamadaEmamTech\Nafath\Session;
 
 /**
  * What Nafath hands back when you open a web session.

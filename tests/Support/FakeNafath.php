@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Tests\Support;
+namespace HamadaEmamTech\Nafath\Tests\Support;
 
 use Nyholm\Psr7\Response;
 use Psr\Http\Client\ClientInterface;

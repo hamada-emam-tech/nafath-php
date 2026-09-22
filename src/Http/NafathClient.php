@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Http;
+namespace HamadaEmamTech\Nafath\Http;
 
-use HamadaEmam\Nafath\Config\Credentials;
-use HamadaEmam\Nafath\Exception\AuthenticationException;
-use HamadaEmam\Nafath\Exception\TransportException;
-use HamadaEmam\Nafath\Exception\VerificationException;
-use HamadaEmam\Nafath\Session\AuthorizeUrl;
+use HamadaEmamTech\Nafath\Config\Credentials;
+use HamadaEmamTech\Nafath\Exception\AuthenticationException;
+use HamadaEmamTech\Nafath\Exception\TransportException;
+use HamadaEmamTech\Nafath\Exception\VerificationException;
+use HamadaEmamTech\Nafath\Session\AuthorizeUrl;
 use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;

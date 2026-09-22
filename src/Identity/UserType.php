@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Identity;
+namespace HamadaEmamTech\Nafath\Identity;
 
 /**
  * What kind of identity document the person authenticated with.

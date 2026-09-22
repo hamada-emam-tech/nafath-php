@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Flow;
+namespace HamadaEmamTech\Nafath\Flow;
 
-use HamadaEmam\Nafath\Exception\VerificationException;
-use HamadaEmam\Nafath\Http\AppTransaction;
-use HamadaEmam\Nafath\Http\NafathClient;
-use HamadaEmam\Nafath\Identity\VerificationResult;
-use HamadaEmam\Nafath\Purpose\Purpose;
-use HamadaEmam\Nafath\Token\TokenVerifier;
+use HamadaEmamTech\Nafath\Exception\VerificationException;
+use HamadaEmamTech\Nafath\Http\AppTransaction;
+use HamadaEmamTech\Nafath\Http\NafathClient;
+use HamadaEmamTech\Nafath\Identity\VerificationResult;
+use HamadaEmamTech\Nafath\Purpose\Purpose;
+use HamadaEmamTech\Nafath\Token\TokenVerifier;
 
 /**
  * The app-push flow: the person never leaves your site.

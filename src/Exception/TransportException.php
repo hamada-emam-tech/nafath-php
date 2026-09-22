@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Exception;
+namespace HamadaEmamTech\Nafath\Exception;
 
 /**
  * Nafath could not be reached, or answered in a way we cannot act on.

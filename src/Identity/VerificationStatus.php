@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Identity;
+namespace HamadaEmamTech\Nafath\Identity;
 
 enum VerificationStatus: string
 {

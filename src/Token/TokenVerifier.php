@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Token;
+namespace HamadaEmamTech\Nafath\Token;
 
-use HamadaEmam\Nafath\Exception\TokenException;
-use HamadaEmam\Nafath\Http\NafathClient;
-use HamadaEmam\Nafath\Identity\Claims;
-use HamadaEmam\Nafath\Identity\UserType;
+use HamadaEmamTech\Nafath\Exception\TokenException;
+use HamadaEmamTech\Nafath\Http\NafathClient;
+use HamadaEmamTech\Nafath\Identity\Claims;
+use HamadaEmamTech\Nafath\Identity\UserType;
 use Firebase\JWT\JWK;
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Purpose;
+namespace HamadaEmamTech\Nafath\Purpose;
 
 /**
  * Why you are asking somebody to verify.

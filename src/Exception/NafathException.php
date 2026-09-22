@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Exception;
+namespace HamadaEmamTech\Nafath\Exception;
 
 /**
  * Base for everything this library throws.

@@ -1,5 +1,5 @@
 {
-    "name": "hamada-emam/nafath",
+    "name": "hamada-emam-tech/nafath",
     "description": "Nafath identity verification for PHP — both the web redirect and the app-push flow, with the traps the official docs leave out already handled.",
     "keywords": [
         "nafath",
@@ -37,21 +37,21 @@
     },
     "autoload": {
         "psr-4": {
-            "HamadaEmam\\Nafath\\": "src/"
+            "HamadaEmamTech\\Nafath\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "HamadaEmam\\Nafath\\Tests\\": "tests/"
+            "HamadaEmamTech\\Nafath\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "HamadaEmam\\Nafath\\Laravel\\NafathServiceProvider"
+                "HamadaEmamTech\\Nafath\\Laravel\\NafathServiceProvider"
             ],
             "aliases": {
-                "Nafath": "HamadaEmam\\Nafath\\Laravel\\Facades\\Nafath"
+                "Nafath": "HamadaEmamTech\\Nafath\\Laravel\\Facades\\Nafath"
             }
         }
     },

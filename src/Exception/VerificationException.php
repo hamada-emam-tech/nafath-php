@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Exception;
+namespace HamadaEmamTech\Nafath\Exception;
 
 /** The verification itself cannot proceed. Terminal — do not retry the same transaction. */
 final class VerificationException extends NafathException

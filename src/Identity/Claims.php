@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Identity;
+namespace HamadaEmamTech\Nafath\Identity;
 
 /**
  * A verified identity, normalised across the four document types.

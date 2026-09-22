@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Exception;
+namespace HamadaEmamTech\Nafath\Exception;
 
-use HamadaEmam\Nafath\Config\Environment;
+use HamadaEmamTech\Nafath\Config\Environment;
 
 /** Something is wrong with how the library was set up, not with Nafath. */
 final class ConfigurationException extends NafathException

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Flow;
+namespace HamadaEmamTech\Nafath\Flow;
 
-use HamadaEmam\Nafath\Http\NafathClient;
-use HamadaEmam\Nafath\Identity\VerificationResult;
-use HamadaEmam\Nafath\Session\AuthorizeUrl;
-use HamadaEmam\Nafath\Token\TokenVerifier;
+use HamadaEmamTech\Nafath\Http\NafathClient;
+use HamadaEmamTech\Nafath\Identity\VerificationResult;
+use HamadaEmamTech\Nafath\Session\AuthorizeUrl;
+use HamadaEmamTech\Nafath\Token\TokenVerifier;
 
 /**
  * The web redirect flow: the person leaves your site, authenticates on Nafath's

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Config;
+namespace HamadaEmamTech\Nafath\Config;
 
-use HamadaEmam\Nafath\Exception\ConfigurationException;
+use HamadaEmamTech\Nafath\Exception\ConfigurationException;
 
 /**
  * One Nafath credential pair, bound to the environment it belongs to.

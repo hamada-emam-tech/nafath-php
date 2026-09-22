@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Exception;
+namespace HamadaEmamTech\Nafath\Exception;
 
 /**
  * The signed identity token could not be trusted.

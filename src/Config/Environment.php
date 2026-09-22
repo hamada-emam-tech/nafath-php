@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Config;
+namespace HamadaEmamTech\Nafath\Config;
 
 /**
  * Which Nafath environment a set of credentials belongs to.

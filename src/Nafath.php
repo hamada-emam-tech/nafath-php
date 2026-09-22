@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath;
+namespace HamadaEmamTech\Nafath;
 
-use HamadaEmam\Nafath\Config\Credentials;
-use HamadaEmam\Nafath\Config\Environment;
-use HamadaEmam\Nafath\Flow\AppFlow;
-use HamadaEmam\Nafath\Flow\WebFlow;
-use HamadaEmam\Nafath\Http\CallRecorder;
-use HamadaEmam\Nafath\Http\NafathClient;
-use HamadaEmam\Nafath\Token\TokenVerifier;
+use HamadaEmamTech\Nafath\Config\Credentials;
+use HamadaEmamTech\Nafath\Config\Environment;
+use HamadaEmamTech\Nafath\Flow\AppFlow;
+use HamadaEmamTech\Nafath\Flow\WebFlow;
+use HamadaEmamTech\Nafath\Http\CallRecorder;
+use HamadaEmamTech\Nafath\Http\NafathClient;
+use HamadaEmamTech\Nafath\Token\TokenVerifier;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;
 use Psr\Http\Message\StreamFactoryInterface;

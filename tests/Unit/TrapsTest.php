@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Tests\Unit;
+namespace HamadaEmamTech\Nafath\Tests\Unit;
 
-use HamadaEmam\Nafath\Config\Credentials;
-use HamadaEmam\Nafath\Config\Environment;
-use HamadaEmam\Nafath\Exception\AuthenticationException;
-use HamadaEmam\Nafath\Exception\VerificationException;
-use HamadaEmam\Nafath\Http\NafathClient;
-use HamadaEmam\Nafath\Session\AuthorizeUrl;
-use HamadaEmam\Nafath\Tests\Support\FakeNafath;
+use HamadaEmamTech\Nafath\Config\Credentials;
+use HamadaEmamTech\Nafath\Config\Environment;
+use HamadaEmamTech\Nafath\Exception\AuthenticationException;
+use HamadaEmamTech\Nafath\Exception\VerificationException;
+use HamadaEmamTech\Nafath\Http\NafathClient;
+use HamadaEmamTech\Nafath\Session\AuthorizeUrl;
+use HamadaEmamTech\Nafath\Tests\Support\FakeNafath;
 use Nyholm\Psr7\Factory\Psr17Factory;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

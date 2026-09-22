@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Http;
+namespace HamadaEmamTech\Nafath\Http;
 
 /**
  * Receives one entry per Nafath call, for your audit trail.

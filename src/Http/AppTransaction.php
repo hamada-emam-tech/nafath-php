@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HamadaEmam\Nafath\Http;
+namespace HamadaEmamTech\Nafath\Http;
 
 /**
  * An in-app push request awaiting the person's approval.
