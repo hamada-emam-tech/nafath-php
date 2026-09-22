@@ -1,0 +1,75 @@
+{
+    "name": "hamada-emam/nafath",
+    "description": "Nafath identity verification for PHP — both the web redirect and the app-push flow, with the traps the official docs leave out already handled.",
+    "keywords": [
+        "nafath",
+        "saudi",
+        "identity",
+        "verification",
+        "elm",
+        "rabet",
+        "kyc",
+        "iam",
+        "absher",
+        "oidc"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/log": "^2.0 || ^3.0",
+        "psr/simple-cache": "^2.0 || ^3.0",
+        "firebase/php-jwt": "^6.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "nyholm/psr7": "^1.8",
+        "friendsofphp/php-cs-fixer": "^3.50",
+        "phpstan/phpstan": "^1.10",
+        "orchestra/testbench": "^9.0 || ^10.0"
+    },
+    "suggest": {
+        "illuminate/support": "For the Laravel bridge — service provider, migrations, Eloquent stores and artisan commands."
+    },
+    "autoload": {
+        "psr-4": {
+            "HamadaEmam\\Nafath\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HamadaEmam\\Nafath\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HamadaEmam\\Nafath\\Laravel\\NafathServiceProvider"
+            ],
+            "aliases": {
+                "Nafath": "HamadaEmam\\Nafath\\Laravel\\Facades\\Nafath"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Hamada Emam",
+            "email": "hamada@emam-tech.com",
+            "homepage": "https://github.com/hamada-emam-tech"
+        }
+    ],
+    "homepage": "https://github.com/hamada-emam-tech/nafath-php",
+    "support": {
+        "issues": "https://github.com/hamada-emam-tech/nafath-php/issues",
+        "source": "https://github.com/hamada-emam-tech/nafath-php"
+    }
+}
