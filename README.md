@@ -1,7 +1,7 @@
 # Nafath for PHP
 
 [![Latest Version](https://img.shields.io/packagist/v/hamada-emam-tech/nafath.svg)](https://packagist.org/packages/hamada-emam-tech/nafath)
-[![License](https://img.shields.io/packagist/l/hamada-emam-tech/nafath.svg)](LICENSE)
+[![License](https://img.shields.io/packagist/l/hamada-emam-tech/nafath.svg?v=1)](LICENSE)
 [![PHP Version](https://img.shields.io/packagist/php-v/hamada-emam-tech/nafath.svg)](composer.json)
 
 Identity verification through **Nafath**, Saudi Arabia's national digital identity
