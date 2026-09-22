@@ -17,6 +17,11 @@ one of those is already handled.
 composer require hamada-emam-tech/nafath
 ```
 
+**Docs:** [how verification actually flows](docs/flow.md) ·
+[getting credentials from Nafath](docs/getting-started-with-nafath.md) ·
+[Laravel](docs/laravel.md) · [Symfony](docs/symfony.md) · [CodeIgniter](docs/codeigniter.md)
+(each: wiring + persistence, single- and multi-tenant)
+
 ---
 
 ## Quick start
