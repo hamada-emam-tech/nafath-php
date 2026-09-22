@@ -29,11 +29,7 @@
         "guzzlehttp/guzzle": "^7.8",
         "nyholm/psr7": "^1.8",
         "friendsofphp/php-cs-fixer": "^3.50",
-        "phpstan/phpstan": "^1.10",
-        "orchestra/testbench": "^9.0 || ^10.0"
-    },
-    "suggest": {
-        "illuminate/support": "For the Laravel bridge — service provider, migrations, Eloquent stores and artisan commands."
+        "phpstan/phpstan": "^1.10"
     },
     "autoload": {
         "psr-4": {
@@ -43,16 +39,6 @@
     "autoload-dev": {
         "psr-4": {
             "HamadaEmamTech\\Nafath\\Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "HamadaEmamTech\\Nafath\\Laravel\\NafathServiceProvider"
-            ],
-            "aliases": {
-                "Nafath": "HamadaEmamTech\\Nafath\\Laravel\\Facades\\Nafath"
-            }
         }
     },
     "config": {
